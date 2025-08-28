@@ -6,13 +6,15 @@ JunGUI is a Java GUI application for the board game **Jungle** made mainly using
 
 ## Table of Contents
 
-- [Jungle Features](#jungle-features)
-- [JunGUI Features](#jungui-features)
-- [JunGUI Assets](#jungui-assets)
-- [Installation](#installation)
-- [Running Tests Example Usage](#running-tests-example-usage)
-- [Running the Application](#running-the-application)
-- [JunGUI Gameplay Instructions](#jungui-gameplay-instructions)
+- [Jungle Game \& JunGUI](#jungle-game--jungui)
+  - [Table of Contents](#table-of-contents)
+  - [Jungle Features](#jungle-features)
+  - [JunGUI Features](#jungui-features)
+  - [JunGUI Assets](#jungui-assets)
+  - [Running the Application](#running-the-application)
+    - [Quick Run](#quick-run)
+    - [Manual Run](#manual-run)
+  - [JunGUI Gameplay Instructions](#jungui-gameplay-instructions)
 
 ## Jungle Features
 
@@ -40,37 +42,22 @@ JunGUI is a Java GUI application for the board game **Jungle** made mainly using
 - Traditional Chinese characters were used (with english captions for clarity) to suit the cultural background of this game (This game is a nostalgic game in childhood for many Cantonese people as they played it during those times).
 - UI was created with the theme of being similar to an old style Chinese chess game in mind, once again, based on the cultural background of this game.
 
-## Installation
-Unzip the 'CS5001-p2.zip'.
-
-```bash
-unzip CS5001-p2.zip
-```
-
-Go to the 'CS5001-p2-jungle/' directory.
-
-```bash
-cd CS5001-p2-jungle/
-```
-
-## Running Tests Example Usage
-Run the program with tests using 'stacscheck' from the command line, either from the original tests or the tests included in this directory:
-
-```bash
-stacscheck /cs/studres/CS5001/Coursework/p2-jungle/Tests/
-```
-
-```bash
-stacscheck /path/to/file/CS5001-p2-jungle/Tests/
-```
-
 ## Running the Application
+Make sure you have **Java 17 or later** installed.  
+You can check by running:
+
+```bash
+java -version
+```
+
+### Quick Run
 Compile and run the application using:
 
 ```bash
 ./run.sh
 ```
 
+### Manual Run
 Can also do it manually by first compiling the application:
 
 ```bash
